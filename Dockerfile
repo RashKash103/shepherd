@@ -1,5 +1,9 @@
 FROM docker:23
 
+LABEL org.opencontainers.image.source=https://github.com/RashKash103/shepherd
+LABEL org.opencontainers.image.description="Shepherd"
+LABEL org.opencontainers.image.licenses=MIT
+
 ENV SLEEP_TIME='5m'
 ENV FILTER_SERVICES=''
 ENV TZ='US/Eastern'
