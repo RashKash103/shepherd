@@ -1,0 +1,3 @@
+[submodule "shepherd"]
+	path = shepherd
+	url = git@github.com:djmaze/shepherd.git
